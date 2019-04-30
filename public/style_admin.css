@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.admin_table{
+    margin: 50px auto;
+}
+.admin_thead{
+    width: 800px;
+    height: 50px;
+    background-color: #4267b2;
+    color:#ffffff;
+}
+.admin_thead>tr>td{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+}
+.admin_tbody>tr>td{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+    border: 2px groove #4267b2;
+}

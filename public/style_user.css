@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formaInput{
+    margin: 100px auto;
+    max-width: 200px;;
+    display: flex;
+    flex-direction: column;
+}
+.formaInput>input{
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.formaInput>button{
+    margin-top: 30px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: blue;
+}
